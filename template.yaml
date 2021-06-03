@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
-  name: springboot-teshutemplate
+  name: springboot-template
   title: Spring Boot gRPC Service for teshu
   description: Create a simple microservice using gRPC and Spring Boot Java custom
   tags:
