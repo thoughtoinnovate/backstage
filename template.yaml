@@ -2,13 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Template
 metadata:
   name: springboot-template
-  title: Spring Boot gRPC Service for teshu
-  description: Create a simple microservice using gRPC and Spring Boot Java custom
+  title: Spring Boot gRPC Service
+  description: Tesu Create a simple microservice using gRPC and Spring Boot Java
   tags:
     - recommended
     - java
     - grpc
-    - teshu
 spec:
   owner: service@example.com
   templater: cookiecutter
@@ -20,15 +19,15 @@ spec:
       - description
     properties:
       component_id:
-        title: Name kya hai yaar
+        title: Name
         type: string
         description: Unique name of the component
       description:
-        title: Description kya hai bhai
+        title: Description
         type: string
-        description: Help others understand what this service does. Ha ha
+        description: Help others understand what this service does. Hello MAn
       http_port:
         title: Port
         type: integer
         default: 8080
-        description: The port to run the gRPC service on, ssup
+        description: The port to run the gRPC service on
