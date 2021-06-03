@@ -10,7 +10,7 @@ metadata:
     - grpc
     - teshu
 spec:
-  owner: thoughtoinnovate
+  owner: service@example.com
   templater: cookiecutter
   type: service
   path: '.'
